@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     self.split(".")
-    self.count
+    self.count(1)
   end
 end
