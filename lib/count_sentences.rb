@@ -18,6 +18,7 @@ class String
     self.split(".") && self.split("!") && self.split("?") && self.split("!!")
     binding.pry
     count = self.count(".") + self.count("!") + self.count("?") +self.count("!!")
+    binding.pry
     count
   end
 end
